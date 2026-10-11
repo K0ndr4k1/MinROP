@@ -1,0 +1,20 @@
+.venv/
+venv/
+.tmp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.egg-info/
+build/
+dist/
+*.log
+
+# Local ELF demo and generated output are not part of the source release.
+/examples/vuln
+/examples/vuln_gadgets.json
+/examples/vuln_gadgets.txt
+/examples/vuln_search.json

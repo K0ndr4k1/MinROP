@@ -1,0 +1,14 @@
+{
+  "input_version": 1,
+  "architecture": "x86_64",
+  "candidates": [
+    {"id": "load_add", "address": "0x4000", "bytes": "48 8b 03 48 83 c0 01 c3"}
+  ],
+  "sequence": ["load_add"],
+  "initial": {
+    "registers": {"rbx": "0x2000", "rsp": "0x8000"},
+    "memory": [{"address": "0x2000", "value": 6}],
+    "stack": ["0x9000"]
+  },
+  "goals": {"rax": 7, "rsp": "0x8008", "rip": "0x9000"}
+}

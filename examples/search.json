@@ -1,0 +1,11 @@
+{
+  "input_version": 1,
+  "candidates": [
+    {"id": "add_one", "address": "0x4000", "bytes": "48 83 c0 01 c3"},
+    {"id": "add_two", "address": "0x5000", "bytes": "48 83 c0 02 c3"}
+  ],
+  "initial": {"registers": {"rax": 0}},
+  "goals": {"rax": 2},
+  "max_depth": 2,
+  "pruning": true
+}
